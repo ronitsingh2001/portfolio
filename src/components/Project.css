@@ -1,0 +1,136 @@
+.projects {
+  background: #f9f9f9;
+  padding: 5rem 0;
+}
+.projects .container {
+  margin: 0 auto;
+  max-width: 100rem;
+  padding: 0 1.3rem;
+}
+.projects .container .project-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.projects .container .project-content p {
+  color: #147efb;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  text-transform: uppercase;
+}
+.projects .container .project-content h3 {
+  color: #2d2e32;
+  font-size: 1.3rem;
+  margin-bottom: 4rem;
+}
+.projects .container .project-content .project-grid {
+  display: grid;
+  grid-gap: 3rem;
+  gap: 3rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  height: auto;
+  width: 100%;
+}
+.projects .container .project-content .project-grid .pro__1 {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  padding: 1rem;
+  margin: 0 auto;
+  gap: 2rem;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 45rem) {
+  .projects .container .project-content .project-grid .pro__1 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }
+}
+.projects .container .project-content .project-grid .pro__1 .pro-img {
+  background-color: hsla(0, 0%, 46%, 0.2);
+  border-radius: 1.7rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 25rem;
+  overflow: hidden;
+  width: 21rem;
+}
+@media (min-width: 45rem) {
+  .projects .container .project-content .project-grid .pro__1 .pro-img {
+    width: 55%;
+  }
+}
+.projects .container .project-content .project-grid .pro__1 .pro-img img {
+  width: 100%;
+  height: auto;
+}
+.projects .container .project-content .project-grid .pro__1 .pro-img img:hover {
+  transform: translateY(-73%);
+  transition: all ease-in-out 4s;
+}
+.projects .container .project-content .project-grid .pro__1 .pro-text {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  width: 20rem;
+  margin-top: 3rem;
+}
+@media (min-width: 45rem) {
+  .projects .container .project-content .project-grid .pro__1 .pro-text {
+    margin-top: 0;
+  }
+}
+.projects .container .project-content .project-grid .pro__1 .pro-text h3 {
+  color: #2d2e32;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.projects .container .project-content .project-grid .pro__1 .pro-text p {
+  color: #767676;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: none;
+}
+.projects .container .project-content .project-grid .pro__1 .pro-text .stack {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.projects .container .project-content .project-grid .pro__1 .pro-text .stack p {
+  background: #fff;
+  font-size: 1.3rem;
+  color: #000;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+}
+.projects .container .project-content .project-grid .pro__1 .pro-text .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.projects .container .project-content .project-grid .pro__1 .pro-text .links a {
+  color: #2d2e32;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.projects .container .project-content .project-grid .pro__1 .pro-text .links a img {
+  width: 1.5rem;
+  vertical-align: middle;
+}/*# sourceMappingURL=Project.css.map */

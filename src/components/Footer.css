@@ -1,0 +1,39 @@
+footer {
+  background-color: #2d2e32;
+  padding: 3rem 0;
+  width: 100%;
+}
+footer .container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 1.4rem;
+}
+footer .container .footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  text-align: center;
+}
+footer .container .footer h3 {
+  color: #fff;
+  font-size: 1.4rem;
+}
+footer .container .footer .footer-socials {
+  display: flex;
+  gap: 2rem;
+}
+footer .container .footer .footer-socials a {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+footer .container .footer .footer-socials a img {
+  width: 2rem;
+}
+@media (min-width: 45rem) {
+  footer .container .footer {
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=Footer.css.map */

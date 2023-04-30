@@ -1,0 +1,113 @@
+.about {
+  padding: 7rem 0;
+  background-color: #fff;
+
+  .container {
+    padding: 0 1.3rem;
+    margin: 0 auto;
+    max-width: 100rem;
+
+    .about-content {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      grid-template-columns: 1fr;
+      @media (min-width: 45rem) {
+        gap: 3rem;
+        margin: auto;
+      }
+
+      .img-side {
+        position: relative;
+
+        .img-side__main-img {
+          width: 90%;
+          border-radius: 2rem;
+          height: auto;
+          margin-bottom: 2rem;
+        }
+
+        .emo {
+          display: none;
+        }
+
+        @media (min-width: 45rem) {
+          .emo {
+            display: inline;
+            position: absolute;
+            border-radius: 50%;
+            background: #eee;
+            bottom: -3rem;
+            right: -2rem;
+            width: 10rem;
+            height: 10rem;
+
+            .coding {
+              width: 5rem;
+              top: 2rem;
+              position: absolute;
+              right: 2.4rem;
+            }
+
+            .text2 {
+              // position: absolute;
+              width: 10rem;
+              animation: rotate linear 9s infinite;
+            }
+          }
+        }
+      }
+
+      .text-side {
+        padding-right: 1rem;
+        margin: 0 auto;
+        max-width: 50rem;
+        @media (min-width: 45rem) {
+          text-align: start;
+          // width: 90%;
+        }
+        h4 {
+          color: #147efb;
+          font-size: 1.2rem;
+          font-weight: 700;
+          margin-bottom: 1rem;
+          text-transform: uppercase;
+          @media (min-width: 45rem) {
+            text-align: start;
+          }
+        }
+
+        h3 {
+          color: #2d2e32;
+          font-family: "Poppins", sans-serif;
+          font-size: 1.7rem;
+          line-height: 1.3;
+          margin-bottom: 1.4rem;
+          font-weight: 900;
+        }
+
+        p {
+          color: #767676;
+          font-family: Mulish, sans-serif;
+          font-size: 1.05rem;
+          font-weight: 500;
+          line-height: 1.5;
+          @media (min-width:45rem) {
+            width: 80%;
+          }
+        }
+      }
+
+      @media (min-width: 45rem) {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
