@@ -5,6 +5,9 @@ import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import "./index.css";
+// import "../src/components/prefix_style.css";
+import "./components/Style.css";
+import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -13,6 +16,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
+      <Resume />
       <Contact />
       <Footer />
     </>

@@ -9,7 +9,6 @@ import html from "../assets/html.png";
 import react from "../assets/react.png";
 import angular from "../assets/angular.png";
 import sass from "../assets/sass.png";
-import "./Hero.css";
 
 function Hero() {
   return (
@@ -18,11 +17,13 @@ function Hero() {
         <div className="container">
           <div className="content">
             <div className="hero-main">
+              <div className="hero-img"></div>
               <div className="hero-text">
                 <h1>Front-end react developer</h1>
                 <img className="wave" src={wave} alt="waving hand" />
                 <p>
-                Hi, I'm Ronit. A passionate Front-end React Developer based in Delhi-NCR, India.
+                  Hi, I'm Ronit. A passionate Front-end React Developer based in 
+                  Delhi-NCR, India.
                 </p>
                 <span>
                   <a
@@ -36,7 +37,6 @@ function Hero() {
                   </a>
                 </span>
               </div>
-              <div className="hero-img"></div>
             </div>
             <div className="skills">
               <p>tech stack</p>

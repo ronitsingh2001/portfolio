@@ -1,5 +1,4 @@
 import React from "react";
-import "./Contact.css";
 import location from "../assets/location.png";
 import mail from "../assets/mail.png";
 
@@ -29,7 +28,9 @@ function Contact() {
                 </div>
                 <div className="contact-info">
                   <h3>Mail</h3>
-                  <p>ronitsingh2112@gmail.com </p>
+                  <a href="mailto:ronitsingh2112@gmail.com">
+                    ronitsingh2112@gmail.com{" "}
+                  </a>
                 </div>
               </div>
             </div>

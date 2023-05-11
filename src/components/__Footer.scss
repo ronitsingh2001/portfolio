@@ -1,0 +1,45 @@
+
+footer{
+    background-color: $primary-color;
+    padding: 3rem 0;
+    width: 100%;
+
+    .container{
+        max-width: 100rem;
+        margin: 0 auto;
+        padding: 0 1.4rem;
+
+        .footer{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 2rem;
+            justify-content: center;
+            text-align: center;
+
+            h3{
+                color: $white-color;
+                font-size: 1.4rem;
+            }
+
+            .footer-socials{
+                display: flex;
+                gap: 2rem;
+
+                a{
+                    background-color: $bg-primary;
+                    padding: 0.5rem;
+                    border-radius: 50%;
+
+                    img{
+                        width: 2rem;
+                    }
+                } 
+            }
+
+            @media (min-width: 53rem) {
+                justify-content: space-between;
+              }
+        }
+    }
+}
