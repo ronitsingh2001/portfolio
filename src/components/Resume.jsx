@@ -14,7 +14,9 @@ function Resume() {
                 <a onClick={() => setResume(true)} className="view">
                   View CV
                 </a>
-                {/* <a className="download">Download CV</a> */}
+                {/* <a href="" className="download" download>
+                  Download CV
+                </a> */}
               </div>
             </div>
             <div className={"resume-content-img" + (resume ? " full" : "")}>

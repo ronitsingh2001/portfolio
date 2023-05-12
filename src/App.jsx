@@ -5,8 +5,8 @@ import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import "./index.css";
-// import "../src/components/prefix_style.css";
-import "./components/Style.css";
+import "../src/components/prefix_style.css";
+// import "./components/Style.css";
 import Resume from "./components/Resume";
 
 function App() {
